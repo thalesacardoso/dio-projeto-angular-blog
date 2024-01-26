@@ -1,0 +1,22 @@
+.big-card__container {
+   margin: 50px 0;
+   padding: 0.5rem;
+   border: 2px solid white;
+   max-width: 400px;
+   min-height: 400px;
+
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 0.5rem;
+
+   text-align: left;
+}
+
+.app-big-card__image img {
+   max-width: 100%;
+}
+
+.app-big-card__text > p {
+   color: #cccccc;
+}

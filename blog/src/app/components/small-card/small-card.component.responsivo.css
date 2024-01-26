@@ -1,0 +1,37 @@
+/*******************************
+   VERSÃO P/ TABLET
+*******************************/
+@media screen and (min-width:420px) and (max-width: 799.99px) {
+   .small-card__container {
+      border-bottom: 1px solid white;
+      display: flex;
+      align-items: center;
+   }
+
+   .small-card__article {
+      max-width: 700px;
+   }
+
+   .small-card__image>img {
+      width: 150px;
+   }
+   
+   .small-card__title>h3>a {
+      font-size: 1rem;
+      font-weight: 400;
+   }
+}
+
+/*******************************
+   VERSÃO P/ SMARTPHONE
+*******************************/
+@media screen and (max-width: 420px) {
+   .small-card__image>img {
+      max-width: 120px;
+   }
+
+   .small-card__title>h3>a {
+      font-size: 1rem;
+      font-weight: 400;
+   }
+}

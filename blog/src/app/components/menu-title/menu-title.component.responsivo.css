@@ -1,0 +1,25 @@
+/*******************************
+   VERSÃO P/ TABLET
+*******************************/
+@media screen and (min-width:420px) and (max-width: 799.99px) {
+   .menu-title__container hr {
+      margin: 0.8rem 0;
+   }
+
+   .menu-title__container h1 {
+      font-size: 3rem;
+   }
+}
+
+/*******************************
+   VERSÃO P/ SMARTPHONE
+*******************************/
+@media screen and (max-width: 420px) {
+   .menu-title__container hr {
+      margin: 0.5rem 0;
+   }
+
+   .menu-title__container h1 {
+      font-size: 2rem;
+   }
+}

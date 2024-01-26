@@ -1,0 +1,33 @@
+/*******************************
+   VERSÃO P/ TABLET
+*******************************/
+@media screen and (min-width:420px) and (max-width: 799.99px) {
+   .article__container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+   }
+
+   .article__others {
+      width: 100%;
+      align-items: center;
+      gap: 1rem;
+   }
+}
+
+/*******************************
+   VERSÃO P/ SMARTPHONE
+*******************************/
+@media screen and (max-width: 420px) {
+   .article__container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+   }
+
+   .article__others {
+      gap: 1rem;
+   }
+}

@@ -1,10 +1,10 @@
 .small-card__container {
-   max-width: 600px;
+   margin: 0 1rem;
    border-bottom: 1px solid white;
 }
 
 .small-card__article {
-   padding: 0.5rem 0.5rem 1rem;
+   padding-bottom: 1rem;
    display: flex;
    justify-content: flex-start;
    align-items: center;
@@ -12,11 +12,11 @@
 }
 
 .small-card__image>img {
-   width: 160px;
+   width: 150px;
 }
 
 .small-card__title {
-   max-width: 400px;
+   text-align: justify;
 }
 
 .small-card__title>h3>a {

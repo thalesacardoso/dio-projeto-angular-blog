@@ -1,0 +1,25 @@
+.small-card__container {
+   max-width: 600px;
+   border-bottom: 1px solid white;
+}
+
+.small-card__article {
+   padding: 0.5rem 0.5rem 1rem;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 0.8rem;
+}
+
+.small-card__image>img {
+   width: 160px;
+}
+
+.small-card__title {
+   max-width: 400px;
+}
+
+.small-card__title>h3>a {
+   font-size: 1.2rem;
+   font-weight: 500;
+}

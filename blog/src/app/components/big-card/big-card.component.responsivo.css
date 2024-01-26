@@ -3,7 +3,6 @@
 *******************************/
 @media screen and (min-width:420px) and (max-width: 799.99px) {
    .big-card__container {
-      background-color: pink;
       max-width: 95vw;
    }
 }
@@ -13,7 +12,6 @@
 *******************************/
 @media screen and (max-width: 420px) {
    .big-card__container {
-      background-color: red;
       max-width: 95vw;
    }
 }

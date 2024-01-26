@@ -1,0 +1,14 @@
+.menu-bar__container {
+   padding: 1rem 0.5rem 0.3rem;
+}
+
+.menu-bar__container ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+
+.menu-bar__container ul > li > a {
+   font-size: 1.2rem;
+}

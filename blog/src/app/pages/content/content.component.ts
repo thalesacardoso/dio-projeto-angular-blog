@@ -12,6 +12,7 @@ export class ContentComponent implements OnInit {
   image: string = 'https://wallpapers-clan.com/wp-content/uploads/2023/11/red-ferrari-supercar-desktop-wallpaper-preview.jpg';
   title: string = 'Aqui vai vim um titulo';
   description: string = 'Aqui vai vim um texto grande Aqui vai vim um texto grande Aqui vai vim um texto grande Aqui vai vim um texto grande Aqui vai vim um texto grande ';
+  id: number = 0;
 
   constructor() { }
 

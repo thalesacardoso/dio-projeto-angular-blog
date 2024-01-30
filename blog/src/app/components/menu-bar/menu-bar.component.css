@@ -1,5 +1,6 @@
 .menu-bar__container {
-   padding: 1rem 0.5rem 0.3rem;
+   padding: 1rem;
+   border-bottom: 1px solid white;
 }
 
 .menu-bar__container ul {

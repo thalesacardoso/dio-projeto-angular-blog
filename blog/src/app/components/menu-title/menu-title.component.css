@@ -1,8 +1,5 @@
-.menu-title__container hr {
-   margin: 1rem 0;
-}
-
 .menu-title__container h1 {
+   margin: 20px 0;
    padding: 1rem;
    font-size: 70px;
    background-color:darkcyan;

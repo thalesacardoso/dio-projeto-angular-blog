@@ -9,6 +9,11 @@
       gap: 1rem;
    }
 
+   .article__main {
+      width: 100%;
+      max-width: 700px;
+   }
+
    .article__others {
       width: 100%;
       align-items: center;

@@ -9,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 ]
 })
 export class BigCardComponent implements OnInit {
-
+  imagem: string = ""
+  title: string = ""
+  
   constructor() { }
 
   ngOnInit(): void {

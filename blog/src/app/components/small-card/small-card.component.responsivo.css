@@ -3,13 +3,12 @@
 *******************************/
 @media screen and (min-width:420px) and (max-width: 799.99px) {
    .small-card__container {
+      width: 95vw;
       border-bottom: 1px solid white;
-      display: flex;
-      align-items: center;
    }
 
    .small-card__article {
-      max-width: 700px;
+      width: 100%;
    }
 
    .small-card__image>img {

@@ -10,12 +10,14 @@
    }
 
    .article__main {
-      width: 100%;
-      max-width: 700px;
+      width: 95vw;
+      justify-content: center;
+      align-items: center;
    }
 
    .article__others {
-      width: 100%;
+      width: 100vw;
+      justify-content: flex-start;
       align-items: center;
       gap: 1rem;
    }
@@ -32,7 +34,13 @@
       gap: 1rem;
    }
 
+   .article__main {
+      width: 90%;
+   }
+
    .article__others {
+      width: 100%;
+      align-items: flex-start;
       gap: 1rem;
    }
 }

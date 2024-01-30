@@ -1,22 +1,32 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { dataFake } from '../../data/dataFake';
 
 @Component({
-  selector: 'app-content',
-  templateUrl: './content.component.html',
-  styleUrls: [
-    './content.component.css',
-    './content.component.responsivo.css'
-]
+	selector: 'app-content',
+	templateUrl: './content.component.html',
+	styleUrls: ['./content.component.css', './content.component.responsivo.css'],
 })
 export class ContentComponent implements OnInit {
-  image: string = 'https://wallpapers-clan.com/wp-content/uploads/2023/11/red-ferrari-supercar-desktop-wallpaper-preview.jpg';
-  title: string = 'Aqui vai vim um titulo';
-  description: string = 'Aqui vai vim um texto grande Aqui vai vim um texto grande Aqui vai vim um texto grande Aqui vai vim um texto grande Aqui vai vim um texto grande ';
-  id: number = 0;
+	image: string = '';
+	title: string = '';
+	description: string = '';
+	private id: string | null = '';
 
-  constructor() { }
+	constructor (
+    private route: ActivatedRoute
+  ) {}
 
-  ngOnInit(): void {
-  }
+	ngOnInit(): void {
+		this.route.paramMap.subscribe((value) => (this.id = value.get('id')));
+		this.setValues(this.id);
+	}
 
+	setValues(id: any) {
+		const result = dataFake[id];
+
+		this.image = result.image;
+		this.title = result.title;
+		this.description = result.description;
+	}
 }

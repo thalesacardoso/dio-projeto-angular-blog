@@ -9,7 +9,7 @@ const routes: Routes = [
     component: HomeComponent  // Nome do componente que será mostrado na rota
   },
   {
-    path:'content',              
+    path:'content/:id',              
     component: ContentComponent
   }
 ];

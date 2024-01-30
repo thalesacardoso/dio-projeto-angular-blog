@@ -1,0 +1,41 @@
+/*******************************
+   VERSÃO P/ TABLET
+*******************************/
+@media screen and (min-width:420px) and (max-width: 799.99px) {
+   /* .content__container {
+ 
+   }
+   
+   .content__image img {
+
+   }
+   
+   .content__title h2 {
+
+   }
+   
+   .content__text {
+
+   } */
+}
+
+/*******************************
+   VERSÃO P/ SMARTPHONE
+*******************************/
+@media screen and (max-width: 420px) {
+   /* .content__container {
+
+   }
+   
+   .content__image img {
+
+   }
+   
+   .content__title h2 {
+
+   }
+   
+   .content__text {
+
+   } */
+}

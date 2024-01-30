@@ -1,0 +1,33 @@
+.content__container {
+   width: 100vw;
+   min-height: 100vh;
+   padding: 2rem 1rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 1rem;
+}
+
+.content__btn, 
+.content__image,
+.content__title,
+.content__text 
+ {
+   width: 60vw;
+}
+
+.content__btn a {
+   background-color: darkcyan;
+   padding: 5px 8px;
+   border-radius: 5px;
+   font-weight: bold;
+}
+
+.content__image img {
+   margin-top: 50px;
+   max-width: 100%;
+   border: 3px solid white;
+   border-radius: 5px;
+}

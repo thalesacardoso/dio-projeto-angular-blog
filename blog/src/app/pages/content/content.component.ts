@@ -3,7 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  styleUrls: [
+    './content.component.css',
+    './content.component.responsivo.css'
+]
 })
 export class ContentComponent implements OnInit {
   image: string = 'https://wallpapers-clan.com/wp-content/uploads/2023/11/red-ferrari-supercar-desktop-wallpaper-preview.jpg';

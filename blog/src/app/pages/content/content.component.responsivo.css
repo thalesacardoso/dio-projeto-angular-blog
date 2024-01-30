@@ -2,40 +2,40 @@
    VERSÃO P/ TABLET
 *******************************/
 @media screen and (min-width:420px) and (max-width: 799.99px) {
-   /* .content__container {
- 
-   }
-   
-   .content__image img {
 
-   }
-   
-   .content__title h2 {
-
-   }
-   
+   .content__btn,
+   .content__image,
+   .content__title,
    .content__text {
+      width: 90vw;
+   }
 
-   } */
+   .content__btn a {
+      font-size: 0.75rem;
+   }
+
+   .content__image img {
+      margin-top: 30px;
+   }
 }
 
 /*******************************
    VERSÃO P/ SMARTPHONE
 *******************************/
 @media screen and (max-width: 420px) {
-   /* .content__container {
 
-   }
-   
-   .content__image img {
-
-   }
-   
-   .content__title h2 {
-
-   }
-   
+   .content__btn,
+   .content__image,
+   .content__title,
    .content__text {
+      width: 95vw;
+   }
 
-   } */
+   .content__btn a {
+      font-size: 0.75rem;
+   }
+
+   .content__image img {
+      margin-top: 20px;
+   }
 }
